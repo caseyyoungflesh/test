@@ -17,3 +17,6 @@ e <- rgamma(1000, shape = 1)
 f <- rgamma(1000, shape = 1)
 
 plot(e, f, pch = 19, col = rgb(0,0,0,0.3))
+
+
+#new code here
