@@ -17,3 +17,11 @@ e <- rgamma(1000, shape = 1)
 f <- rgamma(1000, shape = 1)
 
 plot(e, f, pch = 19, col = rgb(0,0,0,0.3))
+
+
+#new code here
+g <- rpois(1000)
+h <- rpois(1000)
+
+plot(g, h, pch = 19, col = rgb(0,0,0,0.3))
+
