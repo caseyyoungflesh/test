@@ -2,7 +2,6 @@
 a <- rnorm(100)
 b <- rnorm(100)
 
-
 plot(a, b)
 
 
@@ -10,5 +9,5 @@ plot(a, b)
 c <- runif(100)
 d <- runif(100)
 
-
+plot(c, d)
 
