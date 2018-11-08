@@ -2,18 +2,18 @@
 a <- rnorm(1000)
 b <- rnorm(1000)
 
-plot(a, b)
+plot(a, b, pch = 19, col = rgb(0,0,0,0.3))
 
 
 #More data sim
 c <- runif(1000)
 d <- runif(1000)
 
-plot(c, d)
+plot(c, d, pch = 19, col = rgb(0,0,0,0.3))
 
 
 #add third set of data
 e <- rgamma(1000, shape = 1)
 f <- rgamma(1000, shape = 1)
 
-plot(e, f)
+plot(e, f, pch = 19, col = rgb(0,0,0,0.3))
