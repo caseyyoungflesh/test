@@ -29,4 +29,8 @@ plot(g, h, pch = 19, col = rgb(0,0,0,0.3))
 
 4+5
 
+#and more changes
+
+x <- c("yadda", "yadda", "yadda")
+
 
